@@ -3,9 +3,9 @@
 Pretende ponerte en el lugar de muchas personas y mujeres haciendo énfasis en que la violecia de género no de pende de los actos. La violencia de género no es un juego.
 
 Dirigido por:
-Guillem Filella
-Albert Ferran
-David Moya
-Pablo Soler
+- Guillem Filella
+- Albert Ferran
+- David Moya
+- Pablo Soler
 
 Proyecto universitario. CITM (UPC).
