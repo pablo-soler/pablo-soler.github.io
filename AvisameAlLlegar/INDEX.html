@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+<link rel="stylesheet" href="css/estilos.css">
+    
+    <title>PROTOTIPO 1</title>
+  </head>
+    
+      <!-- codigo para que cambie la vista a movil -->
+              <style type="text/css">
+            #aviso-movil-horizontal { display: none; }
+                  
+            @media only screen and (orientation:portrait) {
+                
+                #wrapp { display:none; }
+                #aviso-movil-horizontal { display:block; }
+                
+
+            }
+            @media only screen and (orientation:landscape) {
+                #aviso-movil-horizontal { display:none; }
+            }
+                  
+            @media screen and (min-width: 1800px) { 
+                
+                h1{
+                    font-size:28px; 
+                }
+                
+                h3{
+                     font-size:19px;
+                    letter-spacing: 2px;
+                    line-height: 24px;
+                }
+                
+                
+				
+				 h2{
+                     font-size: 30px;
+                    letter-spacing: 7px;
+                    line-height: 40px;
+                }
+				
+                .colinter{
+                     font-size: 27px;
+                }
+                
+                .colinter2{
+                     font-size: 27px;
+                }
+                
+                .colinter3{
+                     font-size: 27px;
+                }
+                .btn-lg {
+                    padding: 13px 27px;
+                }
+                .btn, button {
+    font-size: 10px;
+  
+  }
+                
+            }
+                  
+                   @media screen and (max-width: 900px) { 
+                
+                h1{
+                    font-size:15px; 
+                }
+                
+                h3{
+                     font-size:10px;
+                    letter-spacing: 2px;
+                    line-height: 15px;
+                }
+                
+                
+				
+				 h2{
+                     font-size: 15px;
+                    letter-spacing: 3.5px;
+                    line-height: 24px;
+                }
+				
+                .colinter{
+                     font-size: 10px;
+                }
+                
+                .colinter2{
+                     font-size: 10px;
+                }
+                
+                .colinter3{
+                     font-size: 10px;
+                }
+                .btn-lg {
+                    padding: 7px 27px;
+                }
+                .btn, button {
+    font-size: 9px;
+  
+  }
+                
+            }
+                  
+                  
+            
+
+            </style>
+   
+
+<body style="background-color: black; color: white;">
+
+
+
+
+<section style="background-color: black;" id="aviso-movil-horizontal" class="intro">
+	<!-- Static Intro -->
+	<div class="bg-image parallax parallax-background2">
+		<div class="full-screen-intro " style="min-height: 400px;">
+			<div class="intro-content" >
+				<div class="intro-content-inner" style="padding-left:8%; padding-right:8%;" >  
+
+					<img src="img/device-rotate.png" alt="device-rotate" style="width:150px; height:150px; margin:30px auto;">                         
+
+					<h1 class="large mb-25">Gire su dispositivo</h1>
+		 			<p class="lead content-wd650">Esta experiencia sólo funciona con la pantalla horizontal. Por favor, gire su dispositivo.</p>
+					<br />                           
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    
+      <div id="rowinfo" class="rowinfo" > 
+      <div class=" justificacion  justify-content-center ">  
+    <h1 class="p-2" > ESTO ES UN CORTOMETRAJE INTERACTIVO</h1>
+          <div class="row"> 
+    <h3 class="col">En  ocasiones podrás interactuar con botones para decidir el curso de la historia.</h3>
+              </div>
+          <div> <button id="play" type="button" class=" botonplay btn btn-lg"> PLAY </button> </div>
+    </div>
+    </div>
+    
+    <div id="rowinfo2" class="rowinfo" > 
+      <div class=" justificacion  justify-content-center ">  
+    <h1 class="p-2" > </h1>
+          <div class="row"> 
+    <h3 class="col espacio"> MIENTRAS TRATAS DE AVERIGUAR QUE OCURRIRÁ EN CADA UNA DE ESTAS OPCIONES, MILES DE MUJERES SON VÍCTIMAS DE SITUACIONES COMO ESTAS A DIARIO. <br>LA VIOLENCIA DE GÉNERO NO DEPENDE DE LOS ACTOS,<br> LA ROPA, EL ALCOHOL O LAS DROGAS.<br> LA VIOLENCIA DE GÉNERO NO DA OPCIONES.<br>LA VIOLENCIA DE GÉNERO NO ES UN JUEGO. </h3>
+              </div>
+          <div> <button id="play2" type="button" class=" botonplay btn btn-lg"> VOLVER AL INICIO </button> </div>
+    </div>
+    </div>
+
+    
+<div id="wrapp"> 
+<section id="empezar">
+<div class="col-md-12">							<!-- Static Intro -->
+	<div style="cursor: pointer; position: fixed;" class="bg-image parallax parallax-background2">
+		<div class="full-screen-intro " style="cursor:pointer;">
+			<div class="intro-content" >
+				<div class="intro-content-inner">
+                    
+
+<div id="botones" class="row align-items-center rowinteractivo ">
+
+    <div id="op1" class="col colinter">
+      ACELERAR EL PASO
+    </div>
+    <div id="op2" class="col colinter">
+      MIRAR ATRÁS
+    </div>
+</div>
+                    
+<div id="botones2" class="row align-items-center rowinteractivo ">
+
+    <div id="op3" class="col colinter">
+      COGER EL MOVIL
+    </div>
+    <div id="op4" class="col colinter">
+      RESPONDERLE
+    </div>
+    <div id="op5" class="col colinter">
+      SALIR CORRIENDO
+    </div>
+</div>
+              
+ <div id="mensajediv1" class="rowmensaje justificacion  justify-content-center">
+    <h2 id="mensaje1" class="p-2 text-center">
+		DAVID ESTÁ LLAMANDO <br> ¿QUÉ HARÍAS?
+    </h2>
+</div>
+                    
+<div id="mensajediv0" class="rowmensaje justificacion  justify-content-center">
+    <h2 id="mensaje0" class="p-2 text-center">
+		HAS OIDO ALGO DETRÁS<br>¿QUÉ HARÍAS?
+    </h2>
+</div>
+ 
+  <div id="mensajediv2" class="rowmensaje justificacion  justify-content-center">
+    <h2 id="mensaje2" class="p-2 text-center">
+      NO TUVISTE SUERTE, <br> ESCOGE OTRA OPCIÓN
+    </h2>
+</div>
+  
+
+               
+ <!-- <div id="current">0:00</div>
+<div id="duration">0:00</div> -->
+                    
+ 					<video  id="video1" style="min-width:75%; width:90%;"> 			
+						<source src="media/video1.mp4" type="video/mp4">		
+					</video>
+                  
+                  
+                    
+				<video  id="video2a" style="min-width:75%; width:90%;"> 			
+						<source src="media/video2a.mp4" type="video/mp4">		
+					</video>
+				
+                    
+                    
+                    <video  id="video2b" style="min-width:75%; width:90%;"> 		
+						<source src="media/video2b.mp4" type="video/mp4">		
+					</video>
+                    
+                    
+                    
+                    <video  id="video3" style="min-width:75%; width:90%;" > 			
+						<source src="media/video3.mp4" type="video/mp4">		
+					</video>
+				
+                        <video  id="video4a" style="min-width:75%; width:90%;"> 			
+						<source src="media/video4a.mp4" type="video/mp4">		
+					</video>
+                    
+                        <video  id="video4b" style="min-width:75%; width:90%;"> 			
+						<source src="media/video4b.mp4" type="video/mp4">		
+					</video>
+                    
+                        <video  id="video4c" style="min-width:75%; width:90%;"> 			
+						<source src="media/video4c.mp4" type="video/mp4">		
+					</video>
+                    
+                                   <video  id="video4d" style="min-width:75%; width:90%;"> 			
+						<source src="media/video4d.mp4" type="video/mp4">		
+					</video>
+				
+				
+					</div>				
+					<br/>                           
+				</div>
+			</div>
+		</div>
+	</div>
+    </section>
+</div>	
+    
+    
+
+
+  <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+<script src="js/bootstrap.min.js" type="text/javascript"></script>  						
+    <script src="js/theme.js" type="text/javascript"></script>
+    
+    <script  src="js/interactive.js" type="text/javascript" > </script>
+    
+  </body>
+      
+    
+    
+
+  
+
+
+
+    
+</html>
+
